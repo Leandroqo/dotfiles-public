@@ -5,6 +5,7 @@ lua << EOF
 local cmp = require'cmp'
 local lspkind = require'lspkind'
 local lspconf = require'lspconfig'
+local util = require'lspconfig/util'
 local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 
 lspkind.init({
@@ -53,7 +54,24 @@ local servers = {
   "pyright", -- python
   -- "pylsp", -- python
   "tsserver", -- typescript
+  "cssls", -- css
+  "html", -- html
+  "gopls" -- golang
 }
+
+--lspconf.gopls.setup {
+--  cmd = {"gopls", "serve"},
+--  filetypes = {"go", "gomod"},
+--  root_dir = util.root_pattern("go.work", "go.mod", ".git"),
+--  settings = {
+--    gopls = {
+--      analyses = {
+--        unusedparams = true,
+--      },
+--      staticcheck = true
+--    }
+--  }
+--}
 
 for _, server in ipairs(servers) do
   lspconf[server].setup {
