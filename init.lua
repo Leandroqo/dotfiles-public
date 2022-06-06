@@ -7,7 +7,6 @@ require('plugins.treesitter')
 require('plugins.nvim-tree')
 require('plugins.barbar')
 require('plugins.lualine')
-require('plugins.truezen')
 --> lsp modules
 require("lsp.language-servers")
 require("lsp.saga")

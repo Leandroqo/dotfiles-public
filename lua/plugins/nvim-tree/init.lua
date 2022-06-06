@@ -177,6 +177,7 @@ map('n', '<leader>r', ':NvimTreeRefresh<CR>', opts)
 map('n', '<C-f>', ':NvimTreeFindFile<CR>', opts)
 
 vim.cmd [[ 
+  let g:nvim_tree_auto_close=1
   let g:nvim_tree_show_icons = {
     \ 'git': 1,
     \ 'folders': 0,
