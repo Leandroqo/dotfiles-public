@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/Users/leandroqo/.local/share/nvim/site/pack/packer/start/moonlight.nvim",
     url = "https://github.com/shaunsingh/moonlight.nvim"
   },
+  ["neovim-ayu"] = {
+    loaded = true,
+    path = "/Users/leandroqo/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/Users/leandroqo/.local/share/nvim/site/pack/packer/start/null-ls.nvim",

@@ -10,6 +10,7 @@ return require('packer').startup(function()
   use 'tiagovla/tokyodark.nvim'
   use 'shaunsingh/moonlight.nvim'
   use 'marko-cerovac/material.nvim'
+  use 'Shatur/neovim-ayu'
 
   use 'kyazdani42/nvim-tree.lua'
   use 'kyazdani42/nvim-web-devicons'

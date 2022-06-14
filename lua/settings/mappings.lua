@@ -3,3 +3,6 @@ local opts = { noremap = true, silent = true }
 
 vim.g.mapleader = ' '
 
+map('n', '<leader>n', ':noh<CR>', opts)
+map('v', '<leader>y', '"*y', {})
+

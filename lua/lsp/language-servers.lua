@@ -30,7 +30,8 @@ local servers = {
   "tsserver",
   "lua",
   "cssls",
-  "gopls"
+  "gopls",
+  "pyright"
 }
 
 ---@diagnostic disable-next-line: undefined-global
