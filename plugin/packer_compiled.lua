@@ -193,6 +193,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/leandroqo/.local/share/nvim/site/pack/packer/start/vim-simple-emoji",
     url = "https://github.com/terroo/vim-simple-emoji"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/Users/leandroqo/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   }
 }
 
