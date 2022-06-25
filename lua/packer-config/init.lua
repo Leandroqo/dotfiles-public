@@ -20,6 +20,16 @@ return require('packer').startup(function()
     requires = { { 'nvim-lua/plenary.nvim' } }
   }
 
+  --> DATABASE
+  use {
+    'kristijanhusak/vim-dadbod-ui',
+    requires = { {
+      'tpope/vim-dadbod',
+      'tpope/vim-dotenv'
+    }}
+
+  }
+
   use 'nvim-treesitter/nvim-treesitter'
   use 'romgrk/barbar.nvim' --> Tabs for neovim
   use 'nvim-lualine/lualine.nvim'

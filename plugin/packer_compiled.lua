@@ -189,6 +189,21 @@ _G.packer_plugins = {
     path = "/Users/leandroqo/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  ["vim-dadbod"] = {
+    loaded = true,
+    path = "/Users/leandroqo/.local/share/nvim/site/pack/packer/start/vim-dadbod",
+    url = "https://github.com/tpope/vim-dadbod"
+  },
+  ["vim-dadbod-ui"] = {
+    loaded = true,
+    path = "/Users/leandroqo/.local/share/nvim/site/pack/packer/start/vim-dadbod-ui",
+    url = "https://github.com/kristijanhusak/vim-dadbod-ui"
+  },
+  ["vim-dotenv"] = {
+    loaded = true,
+    path = "/Users/leandroqo/.local/share/nvim/site/pack/packer/start/vim-dotenv",
+    url = "https://github.com/tpope/vim-dotenv"
+  },
   ["vim-simple-emoji"] = {
     loaded = true,
     path = "/Users/leandroqo/.local/share/nvim/site/pack/packer/start/vim-simple-emoji",
